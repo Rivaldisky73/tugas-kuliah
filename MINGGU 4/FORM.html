@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FORM - HTML 5</title>
+	<style type="text/css"></style>
+	<style>
+body {
+  background-color: lightblue;
+}
+</style>
+
+<style >
+	body {color : red;}
+</style>
+
+</head>
+<body>
+	<form name="forml" method="post" action="kirim.php">
+		<font size="4" color="orange">
+			<center>
+				<h1>FORM MAHASISWA </h1>
+			</center>
+		</font>
+
+	<center>
+		
+		<table>
+			<tr>
+				<td>NIM</td>
+				<td><input type="number" name="fnim" required placeholder="ketikan NIM mu"></td>
+			</tr>
+
+			    
+
+			<tr>
+				<td>NAMA</td>
+				<td><input type="text" name="fnim" placeholder="ketikan namamu"></td>
+			</tr>
+
+			 <tr>
+				<td>AGAMA</td>
+				<td><select name="agama">
+					<option value="">PILIH AGAMA</option>
+					<option value="">ISLAM</option>
+					<option value="">KRISTEN</option>
+					<OPtion value="">HINDU</OPtion>
+					<option value="">BUDHA</option>
+					<option value="">ATHEIS</option>
+					<option value="">YAHUDI</option>
+					<option value=""></option>
+						
+				</select>
+			    </td>
+			 </tr>   
+          
+			<tr>
+				<td>
+				<input type="radio" id="PRIA"name="jenis kelamin"><label for="PRIA">PRIA</label>
+				<input type="radio" id="PEREMPUAN"name="jenis kelamin"><label for="PEREMPUAN">PEREMPUAN</label>
+			</td>
+		   
+			<tr>
+				<td>ALAMAT </td>
+				<td><textarea name="" id="" cols="20" rows="3" placeholder="tuliskan alamatmu"></textarea></td>
+			</tr>  
+
+			</tr>
+			<tr>
+				<td>PROGRAM STUDI</td>
+				<td><select name="fprodi">
+					<option value="">PILIH PROGRAM STUDI</option>
+					<option value="A11">S1 - TEKNIK INFORMATIKA</option>
+					<option value="A12">S1 - SISTEM INFORMATIKA</option>
+					<option value="A14">S1 - DESAIN KOMUNIKASI VISUAL</option>
+					<option value="A15">S1 - ILMU KOMUNIKASI</option>
+					<option value="A16">S1 - FILM DAN TELEVISI</option>
+					<option value="A17">S1 - ANIMASI</option>
+					<option value="A22">D3 - TEKNIK INFORMATIKA</option>
+					<option value="A24">D3 - BROADCASTING</option>
+				</select>
+				</td>
+			</tr>
+
+			    
+
+			<tr>
+				<td>TANGGAL LAHIR</td>
+				<td><input type="date" name="ftgl_lhr"></td>
+			</tr>
+
+			    
+			<tr>
+				<td>BIDANG MINAT</td>
+				<td>
+					<input type="checkbox" name="hobby1" value="101">
+					<label for="hobby1">WEB DEVELOPER</label> <br>
+					<input type="checkbox" name="hobby2" value="102">
+					<label for="hobby2">MOBILE DEVELOPER</label> <br>
+					<input type="checkbox" name="hobby3" value="103">
+					<label for="hobby3">DATA SCIENCE</label> <br>
+					<input type="checkbox" name="hobby4" value="104">
+					<label for="hobby4">REKAYASA PERANGKAT LUNAK</label> <br>
+					<input type="checkbox" name="hobby5" value="105">
+					<label for="hobby5">KOMPUTASI BERBASIS JARINGAN</label> <br>
+					<input type="checkbox" name="hobby6" value="106">
+					<label for="hobby4">ARSITEKTUR DAN JARINGAN KOMPUTER</label> <br>
+
+				</td>
+			</tr>
+
+
+			<tr>
+				<td>LAMPIRAN SERTIFIKAT</td>
+				<td><input type="file" name="ffile"></td>
+			</tr>
+			
+
+			<tr> 
+				<td>
+				<font size="1" color="purple">
+				<h1>TERIMA KASIH </h1>
+				</font>
+				</td>
+			</tr>
+			
+
+		
+			<tr>
+				<td colspan="2"   align="center"><input type="submit" name="fkirim" value="kirim"></td>
+			</tr>
+
+		</table>
+
+	</center>
+
+	</form>
+</body>
+</html>	
