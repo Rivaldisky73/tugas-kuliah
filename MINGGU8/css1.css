@@ -1,0 +1,46 @@
+*
+{
+    box-sizing: border-box;
+}
+header
+{
+    width: 100%;
+    border:2px solid greenyellow ;
+    padding: 50px ;
+    margin: 20px ;
+    background-color: orange;
+    text-align: center ;
+}
+
+nav
+{
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+
+nav ul li
+{
+    list-style-type:none ;
+    background-color: aqua;
+    padding: 8px;
+    margin-top: 7px;
+    display: block;
+    width: 100%;
+    color: black;
+    border: 2px;
+}
+
+article
+{
+    float: left;
+    width: 80%;
+    padding: 20px;
+    border: 2px solid greenyellow;
+    background-color: blueviolet;
+}
+
+footer
+{
+    text-align: center;
+}
