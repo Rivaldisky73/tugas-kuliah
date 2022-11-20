@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRAKTIKUM 9</title>
+      
+    <style>
+        *{
+            box-sizing:border-box;
+        }
+
+        body
+        {
+            background-color: rgb(212, 255, 0);
+        }
+
+        header
+        {
+            border: 1px solid red;
+            padding: 15px;
+            background-color: aqua;
+        }
+
+        h1
+        {
+            text-align: center;
+            color: blueviolet;
+        }
+
+        h2
+        {
+            text-align: center;
+            color: aqua;
+        }
+        
+        .row::after 
+        {
+            content: "";
+            clear: both;
+            display: table;
+        }       
+
+        [class*="col-"]
+        {
+            background-color: blueviolet;
+            color: white ;
+            float: left;
+            padding: 15px;
+            border: 1px solid orange;
+        }
+
+        .col-1  {width: 8.33%;}
+        .col-2  {width: 16.66%;}
+        .col-3  {width: 25%;}
+        .col-4  {width: 33.33%;}
+        .col-5  {width: 41.66%;}
+        .col-6  {width: 50%;}
+        .col-7  {width: 58.33%;}
+        .col-8  {width: 66.66%;}
+        .col-9  {width: 75%;}
+        .col-10 {width: 83.33%;}
+        .col-11 {width: 91.66%;}
+        .col-12 {width: 100%;}
+    </style>
+
+</head>
+
+    <body>
+
+        <header>
+            <h1>España</h1>
+        </header>
+
+        <main class="row">
+            <nav class="col-3">
+                <ul>
+                    <li>the flight</li>
+                    <li>thr city</li>
+                    <li>the island</li>
+                    <li>the food</li>
+                </ul>
+            </nav>
+
+            <article class="col-9">
+                <h2> madrid</h2>
+                <p>
+                    Madrid is the capital and largest city of Spain. The city is located on the Manzanares River in central Spain. The population of this 607 km² city is 3.228 million people (July 2005), whereas if the metropolitan area is calculated it can reach 5.843 million people. Madrid's location and history made it the center of financial and political activity in the Iberian Peninsula, especially after the return of democracy in 1975 and its integration into the European Union.
+                </p>
+    
+                <p>
+                    The mayor of Madrid is Manuela Carmena. Residents of Madridistas are often also called madrileños. 63.5% of the population are Catholic, 8% are Muslim (mainly Sunni) while the rest are followers of Hinduism, Buddhism, Protestantism, or have no religion. 
+                </p>
+            </article> 
+
+        </main>
+
+        <footer style="text-align: center;"> 
+            <p>Copyright &copy; 2022 RIVALDI</p> 
+        </footer>
+
+    </body>
+
+</html>
